@@ -56,7 +56,7 @@ func main() {
 			url := "https://api.github.com/repos/mercadolibre/" + project
 
 			// Create a Bearer string by appending string access token
-			var bearer = "Bearer " + "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"
+			var bearer = "Bearer " + " Token "
 
 			// Create a new request using http
 			req, err := http.NewRequest("GET", url, nil)
